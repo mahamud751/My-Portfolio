@@ -1,6 +1,6 @@
 
 .title{
-    background-color: #1f1c14;
+    background-color: #090909;
 }
 .header-main{
     padding: 0;
@@ -20,6 +20,7 @@
     color: rgb(197, 57, 104);
     margin: 0;
 }
+
 .left-side{
     background-color: #000;
     height: 600px;
@@ -66,8 +67,8 @@ nav ul li:hover a{
     width: 100%;
 }
 .right-side img{
-   width: 250px;
-   height: 250px;
+   width: 320px;
+   height: 320px;
    border-radius: 50%;
    margin-top: 105px;
   
@@ -83,6 +84,7 @@ nav ul li:hover a{
     margin-top: 15px;
     margin-right: 12px;
     text-align: center;
+    
 }
 /*...........................*/
 
@@ -208,7 +210,70 @@ nav ul li:hover a{
     font-weight: normal;
 }
 
+
 /*...........end..............*/
+
+body{
+    justify-content: center;
+    align-items: center;
+    background: #0e0e0e;
+  }
+  .clock{
+      margin-top: 200px;
+      margin-bottom: 200px;
+  }
+  
+  .datetime{
+    color: #fff;
+    background: #10101E;
+    font-family: "Segoe UI", sans-serif;
+    width: 340px;
+    padding: 15px 10px;
+    border: 3px solid #2E94E3;
+    border-radius: 5px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+    transition: 0.5s;
+    transition-property: background, box-shadow;
+  }
+  
+  .datetime:hover{
+    background: #2E94E3;
+    box-shadow: 0 0 30px #2E94E3;
+  }
+  
+  .date{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  
+  .time{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .time span:not(:last-child){
+    position: relative;
+    margin: 0 6px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  
+  .time span:last-child{
+    background: #2E94E3;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+  }
+
+/*............end.............*/
 
 footer{
     margin-top: 10px;
