@@ -1,0 +1,233 @@
+.col-lg-4{
+    padding-right: 0;
+}
+.col-lg-8{
+    padding-left: 0;
+}
+.title{
+    background-color: #1f1c14;
+}
+.title h2{
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: normal;
+    transition: all 0.3s;
+    color: #fff;
+    margin: 10px;
+}
+.title h1{
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: normal;
+    transition: all 0.3s;
+    color: rgb(197, 57, 104);
+    margin: 0;
+}
+.left-side{
+    background-color: #000;
+    height: 600px;
+    width: 100%;
+}
+nav ul{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+nav ul li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+nav ul li a{
+    text-decoration:none;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+}
+nav ul li:hover a{
+    text-decoration: none;
+    color: #38373B;
+}
+.left-side-link nav{
+    margin-left: 10px;
+}
+.left-side-link ul{
+    list-style-type: none;
+    margin: auto;
+    margin-left: -156px;
+}
+.left-side-link ul li{
+    float: left;
+    color: blue;
+    margin-left: 60px;
+    text-shadow: none;
+}
+
+
+/*...........*/
+.right-side{
+    background-color: #050505;
+    height: 600px;
+    width: 100%;
+}
+.right-side img{
+   width: 320px;
+   height: 320px;
+   border-radius: 50%;
+}
+.title-des{
+    margin-top: 20px;
+}
+.title-des h2{
+    padding: 12px;
+    color: yellowgreen;
+    background-color: #38373B;
+    transition: 0.2 sec all;
+    margin-top: 205px;
+    margin-right: 12px;
+    text-align: center;
+}
+/*...........................*/
+
+.about-me{
+    background: #080808;
+}
+.about-me h1{
+    color: #ff5d56;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: normal;
+    font-size: 36px;
+    margin-top: 75px;
+}
+.about-me h2{
+    color: #ff5d56;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: normal;
+    font-size: 16px;
+}
+.about-me h3{
+    color: #ff5d56;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 55px;
+}
+.hr-style{
+        border: 5px dotted white;
+        border-bottom: none;
+        width: 50px;
+}
+.about-me-left{
+    padding: 20px;
+    margin-left: 20px;
+}
+.about-me img{
+    width: 320px;
+   height: 320px;
+   padding: 20px;
+   border: 2px solid white;
+}
+.about-me p{
+    color:#545b62
+}
+
+
+
+/*.......end..........*/
+.my-service{
+    padding-bottom: 30px;
+}
+.my-service h1{
+    color: #ff5d56;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: normal;
+    font-size: 36px;
+    margin-top: 175px;
+    margin-bottom: 175px;
+}
+.my-service-card{
+    margin-left: 70px;
+}
+.card{
+    transform: .4s;
+    border: 1px solid rgb(236, 231, 241);
+    background-color:#080808;
+    color: #222;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 300px;
+    height: auto;
+    margin: 0;
+}
+.card:hover{
+    transform: scale(1,1);
+    box-shadow: 2px 6px 5px rgb(182, 173, 173);
+}
+.card-body img{
+    width: 50px;
+    height: 50px;
+}
+.card h2{
+    color: whitesmoke;
+}
+.card p{
+    color: #545b62;
+}
+
+
+
+/*.............end*/
+
+/*............start..............*/
+.contract-start h1{
+    color: #ff5d56;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: normal;
+    font-size: 36px;
+    margin-top: 175px;
+    margin-bottom: 175px;
+}
+.contract-end h1{
+    color: #ff5d56;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: normal;
+    font-size: 36px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.contract-card{
+    margin-left: 70px;
+}
+.contract-card h1{
+    color: whitesmoke;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: normal;
+    font-size: 36px;
+}
+.contract-card p{
+    color: #6c757d;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: normal;
+}
+
+/*...........end..............*/
+
+footer{
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Handlee', cursive;
+    background: #000000;
+    margin: 0;
+}
+.icon-style{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    color: white;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 10px;
+    transform: .4s;
+}
+.icon-style:hover{
+    transform: scale(1,1);
+    background: lightseagreen;
+}
