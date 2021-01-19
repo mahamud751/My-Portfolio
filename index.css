@@ -66,10 +66,9 @@ nav ul li:hover a{
     width: 100%;
 }
 .right-side img{
-   width: 300px;
-   height: 300px;
+   width: 250px;
+   height: 250px;
    border-radius: 50%;
-   marging-right: 20px;
   
 }
 .title-des{
