@@ -69,6 +69,7 @@ nav ul li:hover a{
    width: 250px;
    height: 250px;
    border-radius: 50%;
+   margin-top: 105px;
   
 }
 .title-des{
@@ -79,7 +80,7 @@ nav ul li:hover a{
     color: yellowgreen;
     background-color: #38373B;
     transition: 0.2 sec all;
-    margin-top: 205px;
+    margin-top: 15px;
     margin-right: 12px;
     text-align: center;
 }
