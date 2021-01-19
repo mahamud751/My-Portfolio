@@ -1,11 +1,10 @@
-.col-lg-4{
-    padding-right: 0;
-}
-.col-lg-8{
-    padding-left: 0;
-}
+
 .title{
     background-color: #1f1c14;
+}
+.header-main{
+    padding: 0;
+    margin: 0;
 }
 .title h2{
     font-family: 'Berkshire Swash', cursive;
@@ -67,9 +66,10 @@ nav ul li:hover a{
     width: 100%;
 }
 .right-side img{
-   width: 290px;
-   height: 290px;
+   width: 300px;
+   height: 300px;
    border-radius: 50%;
+  
 }
 .title-des{
     margin-top: 20px;
@@ -131,7 +131,7 @@ nav ul li:hover a{
 
 /*.......end..........*/
 .my-service{
-    
+    padding-bottom: 30px;
 }
 .my-service h1{
     color: #ff5d56;
@@ -142,7 +142,7 @@ nav ul li:hover a{
     margin-bottom: 175px;
 }
 .my-service-card{
-    padding: 30px;
+    margin-left: 20px;
 }
 .card{
     transform: .4s;
@@ -193,7 +193,7 @@ nav ul li:hover a{
     margin-bottom: 35px;
 }
 .contract-card{
-    
+    padding: 30px;
 }
 .contract-card h1{
     color: whitesmoke;
